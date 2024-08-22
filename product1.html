@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Product Details | furni.shop</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="index.html" class="logo">furni.shop</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#product">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+      <div class="nav__search" id="nav-search">
+        <input type="text" placeholder="Search" />
+        <span><i class="ri-search-2-line"></i></span>
+      </div>
+    </nav>
+
+    <header class="section__container header__container">
+      <div class="header__content">
+        <div class="header__image">
+          <img src="assets/product-1.png" alt="Product Image" />
+        </div>
+        <h1>Stackable Chair</h1>
+        <p>Elevate your home or office décor with this stylish and modern swivel chair. 
+          The chair features a sophisticated design with a cushioned seat and backrest, 
+          providing comfort and support for long hours of sitting.</p>
+        <p>Price: $87.00</p>
+        <div>
+          <button type="button" class="button" onclick="showToast()">
+            <span class="button__text">Add Item</span>
+            <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+            </button>
+        </div>
+        <div id="toast" class="toast">Added to Cart</div>
+        
+      </div>
+      
+    </header>
+
+    <section class="section__container product__details">
+      <h2 class="section__header">Product Details</h2>
+      <div>
+        <h1>Modern Swivel Chair with Cushioned Seat and Wooden Legs</h1>
+    <p>Elevate your home or office décor with this stylish and modern swivel chair. The chair features a sophisticated design with a cushioned seat and backrest, providing comfort and support for long hours of sitting. The sleek grey upholstery, complemented by a matching cushion, adds a touch of elegance to any space. The chair stands on four sturdy wooden legs, angled for stability and aesthetic appeal. This versatile piece is perfect for both work and relaxation, making it an excellent addition to your living room, study, or office.</p>
+
+    <h2 class="section-title">Detailed Information</h2>
+    <table class="product-details">
+        <tr>
+            <th>Design</th>
+            <td>The chair boasts a contemporary design with clean lines and a minimalist aesthetic, making it a perfect fit for modern interiors. The swivel function adds convenience and flexibility, allowing for easy movement without getting up.</td>
+        </tr>
+        <tr>
+            <th>Materials</th>
+            <td>
+                <ul>
+                    <li><strong>Upholstery:</strong> High-quality grey fabric that is soft to the touch, durable, and easy to maintain.</li>
+                    <li><strong>Cushion:</strong> A plush, removable cushion in a complementary color that provides extra comfort.</li>
+                    <li><strong>Frame:</strong> Solid wood legs with a natural finish, designed to offer both strength and style.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th>Dimensions</th>
+            <td>
+                <ul>
+                    <li><strong>Overall Height:</strong> Approximately 32 inches (81 cm)</li>
+                    <li><strong>Seat Height:</strong> Approximately 18 inches (46 cm)</li>
+                    <li><strong>Seat Width:</strong> Approximately 20 inches (51 cm)</li>
+                    <li><strong>Seat Depth:</strong> Approximately 18 inches (46 cm)</li>
+                    <li><strong>Backrest Height:</strong> Approximately 14 inches (36 cm)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th>Features</th>
+            <td>
+                <ul>
+                    <li><strong>Swivel Base:</strong> Allows 360-degree rotation for ease of use and flexibility.</li>
+                    <li><strong>Ergonomic Design:</strong> The cushioned seat and backrest are designed to provide optimal comfort, making it ideal for long periods of sitting.</li>
+                    <li><strong>Versatile Use:</strong> Perfect for home offices, study rooms, living rooms, or even dining areas.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th>Care Instructions</th>
+            <td>Spot clean the fabric with a damp cloth and mild detergent. Avoid using harsh chemicals or bleach. The cushion cover can be removed and washed separately.</td>
+        </tr>
+        <tr>
+            <th>Assembly</th>
+            <td>Minimal assembly required. The chair comes with detailed instructions and all necessary tools for quick and easy setup.</td>
+        </tr>
+        <tr>
+            <th>Weight Capacity</th>
+            <td>Designed to support up to 250 lbs (113 kg) comfortably.</td>
+        </tr>
+    </table>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="index.html" class="logo">furni.shop</a>
+          </div>
+          <p>
+            Join us in transforming your living spaces with furniture that
+            blends elegance and practicality seamlessly.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-pinterest-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Payrol</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Cancelation Policy</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+      </div>  
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
